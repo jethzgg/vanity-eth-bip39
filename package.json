@@ -1,0 +1,22 @@
+{
+  "name": "vanity-eth-bip39",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vanity.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vanity-eth-bip39"
+  },
+  "keywords": [
+    "bip39"
+  ],
+  "author": "jethzg",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "ethers": "^5.5.3"
+  }
+}
