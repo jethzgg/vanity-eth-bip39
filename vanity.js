@@ -6,8 +6,10 @@ const worker = new Worker("./index.js", {workerData: {
 }});
 
 worker.once("message", result => {
+    console.log();
     console.log('address: ' + result.slice(0, 41));
     console.log('mnemonic: ' + result.slice(43, result.length));
+    console.log();
 });
 
 worker.on("error", error => {
